@@ -1,0 +1,79 @@
+div.container{
+    display: flex;
+    align-items: stretch;
+    text-align: center;
+    background-color: rgba(255,255,255,0.3);
+    margin-top: 1rem;
+    color: white;
+}
+
+.weather_infos{
+    align-items: center;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.place_icon{
+    width: 2vw;
+    margin-bottom: 1vh;
+}
+
+.weatherIcon{
+    width: 11vw;
+    margin: 3rem 0;
+}
+
+.temperature{
+    font-size: 4rem;
+}
+
+.heatIcon{
+    width: 3.5vw;
+    margin-bottom: 10px;
+}
+
+.clockIcon{
+    width: 0.9vw;
+    margin-bottom: 3px;
+    margin-left: 3px;;
+}
+
+.clockText{
+    font-size: 0.7rem;
+}
+
+.infos{
+    display: flex;
+    gap: 2rem;
+    background-color: rgba(0,0,0,0.2);
+    font-size: 0.7rem;
+    padding: 1rem;
+    border-radius: 25px;
+    width: 37rem;
+    height: 6rem;
+    margin-top: 2rem;
+    justify-content: center;
+
+    .border_right{
+        border-right: 3px solid rgba(255,255,255,0.1);
+        padding-right: 1rem;
+    }
+}
+
+.windIcon{
+    width: 2rem;
+      opacity: 0.3;
+}
+
+.heatIcon2{
+    width: 2rem;
+    opacity: 0.3;
+}
+
+.separator{
+    width: 12rem;
+    margin-top: 1.7rem;
+    border-top: 1px solid rgba(255,255,255,0.5);
+}

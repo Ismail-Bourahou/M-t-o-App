@@ -1,0 +1,14 @@
+.searchContainer{
+    display: flex;
+    gap: 1rem;
+    margin: 2.5rem auto 0 auto;
+}
+
+.search_Input{
+    width: 100%;
+    background-color: rgba(255,255,255,0.3);
+    border: none;
+    border-radius: 0;
+    border-bottom-color: white;
+    border-bottom: 3px white solid;
+}

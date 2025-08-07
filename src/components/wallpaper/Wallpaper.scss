@@ -1,0 +1,9 @@
+.wallpaper{
+    &-container{
+        z-index: -1;
+        background-color: black;
+    }
+    width: 100%;
+    opacity: 0.6;
+    filter: blur(2px);
+}
