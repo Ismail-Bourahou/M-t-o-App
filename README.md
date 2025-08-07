@@ -16,7 +16,9 @@ J’ai choisi une application web plutôt qu’un autre type d’application car
 - Utilisation de **functional components**.
 - Gestion d’état avec **useState**.
 - Utilisation de **Redux Toolkit** pour la gestion globale de l’état.
-- Intégration d’**animations** pour améliorer l’UX.
 - Connexion à des **APIs externes** :
   - [OpenWeather](https://openweathermap.org/) pour les données météo.
   - [Geoapify](https://www.geoapify.com/) pour la géolocalisation.
+- Utilisation de **SCSS** pour une structuration claire du style.
+- Utilisation de **React-Bootstrap** pour des composants UI réactifs et stylés.
+- Utilisation de **MUI (Material-UI)**, notamment le composant `Autocomplete`.
