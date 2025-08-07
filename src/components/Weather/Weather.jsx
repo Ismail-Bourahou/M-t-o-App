@@ -17,7 +17,7 @@ export const Weather = () => {
   return (
     <>
       <Card className={styles.container}>
-        {/* {weather.isloaded ? ( */}
+        {weather.isloaded ? (
           <Card.Body>
             <Card.Title>
               {weather.name}, {weather.sys.country}
@@ -72,9 +72,9 @@ export const Weather = () => {
               </div>
             </Card.Text>
           </Card.Body>
-        {/* ) : (
+         ) : (
           <Card.Title>Please choose a city</Card.Title>
-        )} */}
+        )} 
       </Card>
     </>
   );
