@@ -72,9 +72,9 @@ export const Weather = () => {
               </div>
             </Card.Text>
           </Card.Body>
-         ) : (
+        ) : (
           <Card.Title>Please choose a city</Card.Title>
-        )} 
+        )}
       </Card>
     </>
   );
